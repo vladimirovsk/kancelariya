@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Roboto&display=swap');
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.slayder{
+    color: white;
+    font-size: 18px;
+    width: 200vh;
+    height: 90vh;
+    margin: 0 auto;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-text{
+    position: absolute;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: baseline;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    color: white;
+    line-height: 1.85714285714286;
+
+}
+
+.elementor-heading-title {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 33px;
+    color: white;
+    margin-top:20px;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+

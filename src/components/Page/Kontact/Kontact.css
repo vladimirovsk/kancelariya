@@ -1,0 +1,31 @@
+.kontact{
+    background: #2B1A09;
+    color: white;
+    min-height: 700px;
+}
+
+.row_brown{
+    background: #2B1A09;
+    color: white;
+}
+
+.row_white{
+    background: floralwhite;
+    color: black;
+}
+.heading-title {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 41px;
+    color: white;
+}
+
+.zagolov {
+    font-family: "Allerta", Sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.img_onas {
+    max-width: 100%;
+    height: auto;
+}
