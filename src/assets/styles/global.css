@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+
+    src: local('Playfair Display'),local('PlayfairDisplay'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf') format('truetype'),
+        url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype'),
+}
+body {
+    font-family: 'Playfair Display';
+}

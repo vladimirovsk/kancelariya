@@ -1,23 +1,20 @@
 .uslugi{
-    background: floralwhite;
-    color: white;
-    min-height: 700px;
-
+    background: white;
+    color: black;
 }
 
+.uslugi .row{
+    margin: auto;
+    text-align: center;
+}
 .heading-title {
-    font-family: "Playfair Display", Sans-serif;
     font-size: 41px;
-    font-color: black;
+    font-color: #000;
 }
+
 
 .zagolov {
-    font-family: "Allerta", Sans-serif;
     font-size: 24px;
     font-color: black;
 }
 
-.img_onas {
-    max-width: 100%;
-    height: auto;
-}

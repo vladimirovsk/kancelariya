@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2bc70e82-1675-40fb-b471-25546ab7c933" name="https://kancelaria.citypay.org.ua" url="https://kancelaria.citypay.org.ua">
+        <fileTransfer rootFolder="/kancelaria" host="teplo05.ftp.tools" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

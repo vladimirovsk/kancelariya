@@ -1,23 +1,7 @@
-.about{
-    background: #2B1A09;
+.practica{
+    background: black;
     color: white;
     min-height: 700px;
-
+    font-size: 18px;
 }
 
-.heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 41px;
-    color: white;
-}
-
-.zagolov {
-    font-family: "Allerta", Sans-serif;
-    font-size: 24px;
-    color: white;
-}
-
-.img_onas {
-    max-width: 100%;
-    height: auto;
-}

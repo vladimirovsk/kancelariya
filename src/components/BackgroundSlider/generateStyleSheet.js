@@ -18,15 +18,15 @@ const generateStyleSheet = ({ imagesCount, duration, transition }) => {
 
     keyframes = `${vendorKeyframes} imageAnimation {
           0% {
-            opacity: 1;
+            opacity: 0;
             animation-timing-function: ease-in;
           }
           ${p1}% {
-            opacity: 2;
+            opacity: 1;
             animation-timing-function: ease-out;
           }
           ${p2}% {
-            opacity: 3;
+            opacity: 2;
           }
           ${p3}% {
             opacity: 0
@@ -38,10 +38,8 @@ const generateStyleSheet = ({ imagesCount, duration, transition }) => {
   }
 
   return `#ReactBackgroundSlider > figure {
-         display: flex;
-         justify-content: center;
+        justify-content: center;
         align-items: center;
-  
         height: 80vh;
         width: 100%;
         position: absolute;

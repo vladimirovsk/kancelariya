@@ -14,7 +14,8 @@ class CardClip extends Component {
             backText: '',
             fontBackText: '14px',
             width: '300px',
-            height: '450px'
+            height: '450px',
+            link:''
         };
     }
 
@@ -46,7 +47,12 @@ class CardClip extends Component {
                         </div>
                         <div className="flip-card-back">
                             <div className={"backTitle"}>{this.props.backTitle}</div>
-                            <div className={"backText"} style={{fontSize: this.props.fontBackText}}>{this.props.backText}</div>
+                            <div className={"backText"} style={{fontSize: this.props.fontBackText}}>{this.props.backText}
+                                {this.props.link!==''
+                                    ? <p className={'flip-card-link'}><a style={{color:'blue'}} href={this.props.link} target="_blank" rel="noopener noreferrer">Więcej informacji</a></p>
+                                    :''
+                                }
+                            </div>
                         </div>
                     </div>
             </div>
@@ -56,7 +62,8 @@ class CardClip extends Component {
 CardClip.defaultProps = {
         fontBackText: "14px",
         width: '300px',
-        height: '450px'
+        height: '450px',
+        link:''
 };
 
 export default CardClip

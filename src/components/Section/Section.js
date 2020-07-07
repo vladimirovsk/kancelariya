@@ -1,6 +1,8 @@
 import React from "react";
+import "./Section.css"
+//import {translate} from "react-switch-lang"
+function Section ({ title, subtitle, dark, id}) {
 
-export default function Section({ title, subtitle, dark, id }) {
     return (
         <div className={"section" + (dark ? " section-dark" : "")}>
             <div className="section-content" id={id}>
@@ -10,3 +12,4 @@ export default function Section({ title, subtitle, dark, id }) {
         </div>
     );
 }
+export default Section;

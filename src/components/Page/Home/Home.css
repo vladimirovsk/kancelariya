@@ -1,0 +1,15 @@
+
+
+.home{
+    background: black;
+    font-family: "Playfair Display", Sans-serif;
+    position: sticky;
+    top: 0px;
+
+    z-index: -1000;
+}
+.img_title {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,70 +1,79 @@
 import React, {Component} from "react"
 import "./Pravila.css"
 import {translate} from "react-switch-lang";
-import {Container, Row, Col, Form, Button} from "react-bootstrap";
+import {Container, Row, Card, CardGroup} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Icon } from '@iconify/react';
-import mapMarkedAlt from '@iconify/icons-fa-solid/map-marker-alt';
-;
+
+import ZS1 from "./Zasady1.jpg"
+import ZS2 from "./Zasady2.jpg"
+
 
 
 class Pravila extends Component {
     state = {
-        id:"0"
+        id:"0",
+        BG1:"url("+ZS1+")",
+        BG2:"url("+ZS2+")"
     }
+
     render() {
         const {t} = this.props;
+
+
         return (
-            <Container fluid={true} className={"kontact"}>
-            <Container fluid={false} className={"kontact"} id={this.props.id}>
-                <div className={"pt-3"}>
-                    <h1 className="text-center heading-title">{t('header.section6.title')}</h1>
+            <Container fluid={true} className={"pravila"}>
+            <Container fluid={'sm'} className={"uslugi"} id={this.props.id}>
+                <div className={"p-0 m-0"}>
+                    <h1 className="text-center heading-title pt-3" style={{color:'black'}}>{t('header.section7.title')}</h1>
                 </div>
-                    <Row className="p-3 row_brown">
-                        <Col sm={6}>
-                            <Form>
-                                <Form.Group className={"mb-3"}controlId="formBasicEmail">
+                <Row className="row_white m-0 p-0 justify-content-center" >
+                    <CardGroup>
+                    <Card className={"text-justify p-0 m-0 row_white"}>
+                        <div className="container-fluid row_white p-4">
+                        <div className={"font-weight-bold text-center mb-2 zasada_title"} style={{textTransform:"uppercase"}}><h4>To&nbsp;nie&nbsp;góra, którą&nbsp;pokonujemy, ale&nbsp;my&nbsp;sami</h4></div>
 
-                                    <Form.Control className={"mb-3"} type="text" placeholder="Imię" />
-                                    <Form.Control className={"mb-3"} type="email" placeholder="Enter email" />
-                                    <Form.Control className={"mb-3"} type="text" placeholder="Telefon" />
-                                    <Form.Control as="textarea" rows="3" placeholder="Treść wiadomości" />
-                                </Form.Group>
-                                <Button variant="secondary" type="submit">
-                                    Wyślij wiadomość
-                                </Button>
-                            </Form>
+                        <div style={{lineHeight: '1.5'}}>Założyciele kancelarii należą do&nbsp;miłośników gór i&nbsp;sportów górskich.
+                            Pozornie może wydawać się, że prawo i&nbsp;góry mają niewiele wspólnego. Nic bardziej mylnego.
+                            Uprawianie przedmiotowych dyscyplin istotnie przyczynia się&nbsp;do&nbsp;ukształtowania cech nieocenionych w&nbsp;zawodzie adwokata.</div>
 
-                        </Col>
-                        <Col sm={6} className={"justify-content-center"}>
-                            <div style={{background: 'darkgoldenrod', boxSizing: 'border-box'}}>
-                            <h3 className={"text-center font-weight-bold pt-3"}>Gdzie nas znajdziesz</h3>
-                            <hr />
-                            <Row className="justify-content-md-center pb-4">
+                        <div className={"font-weight-bold mt-2 text-center"} style={{textTransform:"uppercase", lineHeight: '1.5'}}>Skrupulatność</div>
+                        <div>Góry nauczyły nas, że&nbsp;skrupulatność ma&nbsp;ogromny wpływ na&nbsp;bezpieczeństwo. We wspinaczce najmniejszy błąd operacyjny może skutkować utratą życia lub zdrowia. Uprawianie górskich dyscyplin sportowych ukształtowało w&nbsp;nas mechanizm
+                            dbałości o&nbsp;każdy szczegół w&nbsp;podejmowanych działaniach.
+                            Cecha te&nbsp;jest bezcenna w&nbsp;zawodzie prawnika, albowiem niedostrzeżenie drobnych aspektów sprawy może poważnie zagrozić interesom Klienta.
+                            My posiadamy ugruntowane doświadczeniem górskim przekonanie, że&nbsp;bezpieczeństwo tkwi w&nbsp;szczegółach, co przekłada się na&nbsp;zawodową sumienność i&nbsp;czyni z&nbsp;nas solidnych fachowców.</div>
 
-                                <Col xs sm={4} className="text-center m-0 p-0">
-                                    <span style={{fontSize: '80px', color: 'floralwhite'}}>
-                                        <Icon icon={mapMarkedAlt} />
-
-                                    </span>
-                                </Col>
-                                <Col xs sm={8}>
-                                    <span style={{color: "white"}}>ul. Topolowa 31/1    31-506 Kraków</span><br />
-                                    <span style={{fontSize: "15px"}}>tel. 12 312 53 22<br />
-                                    sekretariat@kancelaria-b-s.pl<br />
-                                    Pon-Pt - 08:00-19:00</span>
-
-                                </Col>
-                            </Row>
+                        <div className={"font-weight-bold mt-2 text-center"} style={{textTransform:"uppercase"}}>Wytrwałość</div>
+                            <div>Wyczynowe sporty górskie są&nbsp;możliwe dla&nbsp;tych, którzy posiadają cechę niezłomności w&nbsp;dążeniu do&nbsp;celu.
+                                Niepogoda, deszcz, wiatr, mróz nie mogą być powodem do&nbsp;odwrotu, gdy chce&nbsp;się&nbsp;osiągnąć zamierzone założenie.
+                                Tylko wewnętrzna waleczność umożliwia przezwyciężenie niesprzyjających okoliczności i&nbsp;realizacje założeń mimo pojawiających się przeciwności.
+                                Te lekcje przetrwania uczą, aby&nbsp;w&nbsp;życiu codziennym nie szukać przeszkód i&nbsp;problemów, lecz koncentrować się&nbsp;na&nbsp;tym jak je&nbsp;rozwiązać lub&nbsp;ominąć.
+                                My&nbsp;dobrze wiemy, że&nbsp;nie należy odpuszczać, gdy robi&nbsp;się&nbsp;pod górę, lecz konsekwentnie zmierzać&nbsp;na szczyt. Z&nbsp;taką samą walecznością dbamy&nbsp;o interesy naszych Klientów.
                             </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.063880815331!2d19.95367544405478!3d50.0663652887421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b185f36d53b%3A0x96d15ce836ab9dd3!2sTopolowa%2031%2C%2031-506%20Krak%C3%B3w!5e0!3m2!1sru!2spl!4v1590245269460!5m2!1sru!2spl"
-                            width="100%" height="300px" frameBorder="0" style={{border:0}} allowFullScreen=""
-                            aria-hidden="false" tabIndex="0"></iframe>
-                    </Row>
+                        </div>
+                    </Card>
+                    <Card className={"text-justify p-0 m-0"} style={{backgroundImage: this.state.BG1,
+                            backgroundRepeat:'no-repeat', backgroundSize:"cover"}}>
+                    </Card>
+                    </CardGroup>
+                </Row>
+                <Row className="row_white justify-content-center">
+                    <CardGroup>
+                    <Card className={"text-justify p-0 m-0"} style={{backgroundImage: this.state.BG2,
+                        backgroundRepeat:'no-repeat', backgroundSize:"cover"}}>
+                    </Card>
+                    <Card  className={"text-justify p-0 m-0 row_white"}>
+                        <Container className={"p-4 row_white"}>
+                        <div className={"font-weight-bold p-0 m-0 text-center "} style={{textTransform:"uppercase"}}>Praca zespołowa</div>
+                        <div>Nie ma&nbsp;takiego człowieka, który znałby się&nbsp;na&nbsp;wszystkim i&nbsp;potrafił wszechstronnie przeanalizować problem. Tylko wymiana wiedzy i&nbsp;doświadczeń gwarantuje staranne i&nbsp;kompleksowe podejście. Góry uczą, że&nbsp;efektywne współdziałanie przekłada się&nbsp;zarówno na&nbsp;bezpieczeństwo,  jak i na&nbsp;skuteczność w&nbsp;dążeniu do&nbsp;celu. Współpraca i&nbsp;wzajemna pomoc to&nbsp;niezastąpiony drogowskaz prowadzący na&nbsp;szczyt. Pamiętamy o&nbsp;tym zarówno w&nbsp;życiu codziennym,  jak&nbsp;i&nbsp;zawodowym. Prowadzimy sprawy w&nbsp;taki sposób, aby&nbsp;sytuacja prawna każdego Klienta została poddana ocenie przez co&nbsp;najmniej dwóch współdziałających fachowców.
+                        </div>
+                        <div className={"font-weight-bold mt-3 text-center"} style={{textTransform:"uppercase"}}>Szacunek, zaufanie, życzliwa atmosfera</div>
+                        <div>W górach nie ma&nbsp;znaczenia status społeczny lub majątkowy człowieka. Wszyscy są równi i&nbsp;przyjaźnie nastawieni. Wyzwania jakie niosą ze&nbsp;sobą góry uczą ludzi wzajemnego szacunku bez względu na&nbsp;to&nbsp;czym się zajmują na&nbsp;co&nbsp;dzień. Tak samo budujemy relacje z&nbsp;Klientami. Uprzejmość, empatia i&nbsp;kultura osobista to&nbsp;filary, na&nbsp;których opieramy zawodową współpracę. Zespół zaś dobieramy tak, aby&nbsp;budować koleżeńską atmosferę i&nbsp;grono mogących polegać na&nbsp;sobie osób. Komfort pracy w&nbsp;życzliwym otoczeniu przekłada się&nbsp;istotnie na&nbsp;jakość świadczonych usług.</div>
+                        <div className={"mt-3"}>W pracy jesteśmy prawnikami i&nbsp;skupiamy się&nbsp;wyłącznie na&nbsp;tym, aby&nbsp;profesjonalnie wykonywać powierzone nam zadania, zapominając o&nbsp;tym co&nbsp;robimy w&nbsp;czasie rekreacji. Niemniej jednak obserwując proces rozwoju własnych osobowości na&nbsp;przestrzeni wielu lat i&nbsp;idący za&nbsp;tym progres umiejętności zawodowych konsekwentnie uważamy, że&nbsp;pasje górskie pomagają nam&nbsp;być świetnymi prawnikami.</div>
+                        </Container>
+                    </Card>
+                    </CardGroup>
+                </Row>
+
             </Container>
             </Container>
         )
