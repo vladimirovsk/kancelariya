@@ -52,7 +52,7 @@ class Kontact extends Component {
         this.handleTextareaChange = this.handleTextareaChange.bind(this);
     }
 
-    validateControl = (value, validation) => {
+    validateControl(value, validation){
 
         let isValid = false;
 
@@ -80,7 +80,7 @@ class Kontact extends Component {
 
     }
 
-    onChangeHandler = (event) => {
+    onChangeHandler(event){
         const name = event.target.name;
         const value = event.target.value;
         let btnEnabled = false;
@@ -151,13 +151,14 @@ class Kontact extends Component {
         });
         }
 
-        const handleClose = async () => {
-            await this.setState({show:false});
+        const handleClose = () => {
+            this.setState({show:false});
             //this.setState({person: false});
             //this.setState({sendEmail: false});
             //this.setState({btnSending:false});
         }
-        const handleShow = () => {
+
+       const handleShow = () => {
             this.setState({btnSending:true});
             this.setState({show:true});
             this.setState({person: true});
@@ -204,8 +205,6 @@ class Kontact extends Component {
             const handleClick =  async () => {
                  setLoading(true);
             }
-
-
 
             //!isValid ||
             return (
