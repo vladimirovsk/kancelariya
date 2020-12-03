@@ -9,6 +9,9 @@ import ZT1 from './ZT/ZT1.jpg';
 import ZT2 from './ZT/ZT2.jpg';
 import ZT3 from './ZT/ZT3.jpg';
 import ZT4 from './ZT/ZT4.jpg';
+import ZT5 from './ZT/ZT5.jpg';
+import ZT6 from './ZT/ZT6.jpg';
+import ZT7 from './ZT/ZT7.jpg';
 
 import WZ1 from './WZ/WZ1.jpg';//Przemysław Pięta
 import WZ2 from './WZ/WZ2.jpg';  //Monika Walancik
@@ -101,6 +104,36 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                                   backText='Studentka Wydziału Prawa i&nbsp;Administracji Krakowskiej Akademii im.&nbsp;Andrzeja  Frycza Modrzewskiego w&nbsp;Krakowie. Uczestnik Poradni Prawnej przy Akademii Krakowskiej Akademii im.&nbsp;Andrzeja  Frycza Modrzewskiego w&nbsp;Krakowie. Języki: polski, rosyjski, ukraiński.'
                         />
                     </Grid>
+                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
+                      <CardClip img={ZT5}
+                                name={"Sebastian Białobrzeski"}
+                                prof1={""}
+                                prof2={""}
+                                body={""}
+                                backTitle='Sebastian Białobrzeski'
+                                backText='Student kierunku Prawo&nbsp;na Wydziale Prawa, Administracji&nbsp;i Stosunków Międzynarodowych Krakowskiej Akademii&nbsp;im. Andrzeja Frycza Modrzewskiego. Od września 2020 roku związany&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do jego głównych zainteresowań należą zagadnienia&nbsp;z zakresu prawa karnego, rodzinnego oraz prawa spółek. Języki: angielski, niemiecki.'
+                    />
+                  </Grid>
+                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
+                    <CardClip img={ZT6}
+                              name={"Magdalena Ćwierz"}
+                              prof1={""}
+                              prof2={""}
+                              body={""}
+                              backTitle='Magdalena Ćwierz'
+                              backText='Studentka prawa Instytutu Prawa&nbsp;i Ekonomii Uniwersytetu Pedagogicznego&nbsp;im. Komisji Edukacji Narodowej&nbsp;w Krakowie. Od sierpnia 2019 roku działa&nbsp;w Stowarzyszeniu „Podhale –Nasz Dom” realizującym zadania&nbsp;z zakresu udzielania pomocy osobom pokrzywdzonym przestępstwem oraz osobom im najbliższym. Od września 2020 roku związana&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do obszaru jej zainteresowań należy prawo karne oraz prawo rodzinne. Włada językiem angielskim.'
+                    />
+                  </Grid>
+                    <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} justify={'center'} spacing={0}>
+                  <CardClip img={ZT7}
+                              name={"Kamil Wywiał"}
+                              prof1={" "}
+                              prof2={" "}
+                              body={""}
+                              backTitle='Kamil Wywiał'
+                              backText='Ukończył studia prawnicze na Wydziale Prawa&nbsp;i Administracji Uniwersytetu Śląskiego&nbsp;w Katowicach&nbsp;w trybie stacjonarnym. W 2020 roku uzyskał pozytywny wynik&nbsp;z egzaminu wstępnego&nbsp;na aplikację radcowską, którą odbywa przy Okręgowej Izbie Radców Prawnych. Z kancelarią Bernadetty Burkiewicz-Śliwy związany od października 2020 roku. Specjalizuje się&nbsp;w szczególnościw prawie budowlanym oraz prawie gospodarczo-handlowym. Włada językiem angielskim.'
+                    />
+                  </Grid>
                 </Grid>
 
 
