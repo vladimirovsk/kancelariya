@@ -100,7 +100,7 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                               prof2={" "}
                               body={""}
                               backTitle='Kamil Wywiał'
-                              backText='Ukończył studia prawnicze na Wydziale Prawa&nbsp;i Administracji Uniwersytetu Śląskiego&nbsp;w Katowicach&nbsp;w trybie stacjonarnym. W 2020 roku uzyskał pozytywny wynik&nbsp;z egzaminu wstępnego&nbsp;na aplikację radcowską, którą odbywa przy Okręgowej Izbie Radców Prawnych. Z kancelarią Bernadetty Burkiewicz-Śliwy związany od października 2020 roku. Specjalizuje się&nbsp;w szczególnościw prawie budowlanym oraz prawie gospodarczo-handlowym. Włada językiem angielskim.'
+                              backText='Ukończył studia prawnicze&nbsp;na Wydziale Prawa&nbsp;i Administracji Uniwersytetu Śląskiego&nbsp;w Katowicach&nbsp;w&nbsp;trybie stacjonarnym. W&nbsp;2020 roku uzyskał pozytywny wynik&nbsp;z egzaminu wstępnego&nbsp;na&nbsp;aplikację radcowską, którą odbywa przy Okręgowej Izbie Radców Prawnych. Z kancelarią Bernadetty Burkiewicz-Śliwy związany od października 2020 roku. Specjalizuje się&nbsp;w szczególności&nbsp;w&nbsp;prawie budowlanym oraz prawie gospodarczo-handlowym. Włada językiem angielskim.'
                     />
                   </Grid> {/*Kamil*/}
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
@@ -116,7 +116,7 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
                     <CardClip img={ZT5}
                               name={"Sebastian Białobrzeski"}
-                              prof1={"stażysta i zmienić kolejność"}
+                              prof1={"stażysta"}
                               prof2={""}
                               body={""}
                               backTitle='Sebastian Białobrzeski'
