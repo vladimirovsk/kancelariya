@@ -65,7 +65,7 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                                   Z&nbsp;uwagi na dobrze rozwinięte umiejętności empatii prowadzi także sprawy rodzinne. Uczestniczka konferencji krajowych i&nbsp;międzynarodowych z&nbsp;prawa medycznego.
                                   Prowadziła medialne procesy sądowe. Włada językiem angielskim.'
                         />
-                    </Grid>
+                    </Grid> {/*Bernadeta8*/}
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
                         <CardClip img={ZT2}
                                   name={"Jakub Kuś"}
@@ -82,18 +82,7 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                                     Specjalizuje się w&nbsp;prawie gospodarczym, upadłościowym, karnym. Ponadto zajmuje się doradztwem w&nbsp;zakresie dotacji dla przedsiębiorców oraz kompleksową obsługa postępowań
                                     w&nbsp;przedmiocie uzyskania i&nbsp;rozliczania dofinansowań. Włada językiem angielskim i&nbsp;rosyjskim.'
                         />
-                    </Grid>
-                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
-                        <CardClip img={ZT3}
-                                  name={"Alicja Burkiewicz "}
-                                  prof1={"kierownik sekretariatu"}
-                                  prof2={""}
-                                  body={""}
-                                  backTitle={"Alicja Burkiewicz "}
-                                  backText='Obsługa i&nbsp;zarządzanie sprawami administracyjno-finansowymi kancelarii, opiniowanie postępowań w&nbsp;sprawach o&nbsp;wykroczenia, asystent ds.&nbsp;dotacji'
-                        />
-
-                    </Grid>
+                    </Grid> {/*Kuba*/}
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
                         <CardClip img={ZT4}
                                   name={"Elisaveta Niehanova"}
@@ -103,37 +92,48 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                                   backTitle='Elisaveta Niehanova'
                                   backText='Studentka Wydziału Prawa i&nbsp;Administracji Krakowskiej Akademii im.&nbsp;Andrzeja  Frycza Modrzewskiego w&nbsp;Krakowie. Uczestnik Poradni Prawnej przy Akademii Krakowskiej Akademii im.&nbsp;Andrzeja  Frycza Modrzewskiego w&nbsp;Krakowie. Języki: polski, rosyjski, ukraiński.'
                         />
-                    </Grid>
+                    </Grid> {/*Lisa*/}
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
-                      <CardClip img={ZT5}
-                                name={"Sebastian Białobrzeski"}
-                                prof1={""}
-                                prof2={""}
-                                body={""}
-                                backTitle='Sebastian Białobrzeski'
-                                backText='Student kierunku Prawo&nbsp;na Wydziale Prawa, Administracji&nbsp;i Stosunków Międzynarodowych Krakowskiej Akademii&nbsp;im. Andrzeja Frycza Modrzewskiego. Od września 2020 roku związany&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do jego głównych zainteresowań należą zagadnienia&nbsp;z zakresu prawa karnego, rodzinnego oraz prawa spółek. Języki: angielski, niemiecki.'
-                    />
-                  </Grid>
-                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
-                    <CardClip img={ZT6}
-                              name={"Magdalena Ćwierz"}
-                              prof1={""}
-                              prof2={""}
-                              body={""}
-                              backTitle='Magdalena Ćwierz'
-                              backText='Studentka prawa Instytutu Prawa&nbsp;i Ekonomii Uniwersytetu Pedagogicznego&nbsp;im. Komisji Edukacji Narodowej&nbsp;w Krakowie. Od sierpnia 2019 roku działa&nbsp;w Stowarzyszeniu „Podhale –Nasz Dom” realizującym zadania&nbsp;z zakresu udzielania pomocy osobom pokrzywdzonym przestępstwem oraz osobom im najbliższym. Od września 2020 roku związana&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do obszaru jej zainteresowań należy prawo karne oraz prawo rodzinne. Włada językiem angielskim.'
-                    />
-                  </Grid>
-                    <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} justify={'center'} spacing={0}>
-                  <CardClip img={ZT7}
+                    <CardClip img={ZT7}
                               name={"Kamil Wywiał"}
-                              prof1={" "}
+                              prof1={"aplikant radcowski"}
                               prof2={" "}
                               body={""}
                               backTitle='Kamil Wywiał'
                               backText='Ukończył studia prawnicze na Wydziale Prawa&nbsp;i Administracji Uniwersytetu Śląskiego&nbsp;w Katowicach&nbsp;w trybie stacjonarnym. W 2020 roku uzyskał pozytywny wynik&nbsp;z egzaminu wstępnego&nbsp;na aplikację radcowską, którą odbywa przy Okręgowej Izbie Radców Prawnych. Z kancelarią Bernadetty Burkiewicz-Śliwy związany od października 2020 roku. Specjalizuje się&nbsp;w szczególnościw prawie budowlanym oraz prawie gospodarczo-handlowym. Włada językiem angielskim.'
                     />
-                  </Grid>
+                  </Grid> {/*Kamil*/}
+                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
+                    <CardClip img={ZT6}
+                              name={"Magdalena Ćwierz"}
+                              prof1={"prawnik"}
+                              prof2={""}
+                              body={""}
+                              backTitle='Magdalena Ćwierz'
+                              backText='Studentka prawa Instytutu Prawa&nbsp;i Ekonomii Uniwersytetu Pedagogicznego&nbsp;im. Komisji Edukacji Narodowej&nbsp;w Krakowie. Od sierpnia 2019 roku działa&nbsp;w Stowarzyszeniu „Podhale –Nasz Dom” realizującym zadania&nbsp;z zakresu udzielania pomocy osobom pokrzywdzonym przestępstwem oraz osobom im najbliższym. Od września 2020 roku związana&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do obszaru jej zainteresowań należy prawo karne oraz prawo rodzinne. Włada językiem angielskim.'
+                    />
+                  </Grid> {/*Magda*/}
+                    <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
+                    <CardClip img={ZT5}
+                              name={"Sebastian Białobrzeski"}
+                              prof1={"stażysta i zmienić kolejność"}
+                              prof2={""}
+                              body={""}
+                              backTitle='Sebastian Białobrzeski'
+                              backText='Student kierunku Prawo&nbsp;na Wydziale Prawa, Administracji&nbsp;i Stosunków Międzynarodowych Krakowskiej Akademii&nbsp;im. Andrzeja Frycza Modrzewskiego. Od września 2020 roku związany&nbsp;z kancelarią adwokacką Bernadetty Burkiewicz-Śliwy. Do jego głównych zainteresowań należą zagadnienia&nbsp;z zakresu prawa karnego, rodzinnego oraz prawa spółek. Języki: angielski, niemiecki.'
+                    />
+                  </Grid> {/*Sebastian*/}
+                    <Grid container item xs={12} sm={12} md={12} lg={12} xl={12} justify={'center'} spacing={0}>
+                    <CardClip img={ZT3}
+                              name={"Alicja Burkiewicz "}
+                              prof1={"kierownik sekretariatu"}
+                              prof2={""}
+                              body={""}
+                              backTitle={"Alicja Burkiewicz "}
+                              backText='Obsługa i&nbsp;zarządzanie sprawami administracyjno-finansowymi kancelarii, opiniowanie postępowań w&nbsp;sprawach o&nbsp;wykroczenia, asystent ds.&nbsp;dotacji'
+                    />
+
+                  </Grid> {/*Alicia*/}
                 </Grid>
 
 
