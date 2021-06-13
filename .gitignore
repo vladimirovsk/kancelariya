@@ -1,2 +1,5 @@
-node_modulesj
+node_module
 *.jpg
+.gitignore
+.DS_Store
+
