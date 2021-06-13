@@ -3,7 +3,7 @@ import "./Home.css"
 import {translate} from "react-switch-lang";
 import {Container} from "react-bootstrap";
 
-import HD from "./headers.jpg"
+import HD from "./header.png"
 
 class Home extends Component {
     state = {

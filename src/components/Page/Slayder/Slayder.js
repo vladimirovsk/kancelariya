@@ -10,23 +10,17 @@ import BackgroundSlider from '../../BackgroundSlider/BackgroundSlider'
 
 class Slayder extends Component {
     render (){
-        //let intervalCsaHead = setInterval(csaHead,8000);
-        return (
+      return(
             <Container  fluid={true}  className={'row_brown'}>
-
-
                 <Container  fluid={true}  className={'slayder'}>
                     <BackgroundSlider
                                       images={[image1, image2, image3]}
                                       duration={3}
                                       transition={2}
                     >
-
                     </BackgroundSlider>
             </Container>
-
             </Container>
-
         )
     }
 }

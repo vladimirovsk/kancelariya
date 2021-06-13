@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.2c19edf7.chunk.css",
-    "main.js": "/static/js/main.7d130d7e.chunk.js",
-    "main.js.map": "/static/js/main.7d130d7e.chunk.js.map",
+    "main.js": "/static/js/main.de004a2e.chunk.js",
+    "main.js.map": "/static/js/main.de004a2e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.866b81ea.js",
     "runtime-main.js.map": "/static/js/runtime-main.866b81ea.js.map",
     "static/css/2.db6f3515.chunk.css": "/static/css/2.db6f3515.chunk.css",
     "static/js/2.970c5214.chunk.js": "/static/js/2.970c5214.chunk.js",
     "static/js/2.970c5214.chunk.js.map": "/static/js/2.970c5214.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7791eb6b35e836f83e76c50a9b6be2a3.js": "/precache-manifest.7791eb6b35e836f83e76c50a9b6be2a3.js",
+    "precache-manifest.d0c90e9c2788dc2fdfc137d681319424.js": "/precache-manifest.d0c90e9c2788dc2fdfc137d681319424.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.db6f3515.chunk.css.map": "/static/css/2.db6f3515.chunk.css.map",
     "static/css/main.2c19edf7.chunk.css.map": "/static/css/main.2c19edf7.chunk.css.map",
@@ -44,7 +44,7 @@
     "static/media/WZ3.jpg": "/static/media/WZ3.130ffba5.jpg",
     "static/media/WZ6.jpg": "/static/media/WZ6.b540ceda.jpg",
     "static/media/WZ7.jpg": "/static/media/WZ7.f07b22bd.jpg",
-    "static/media/WZ8.jpg": "/static/media/WZ8.78351696.jpg",
+    "static/media/WZ8.jpg": "/static/media/WZ8.79529c32.jpg",
     "static/media/WZ9.jpg": "/static/media/WZ9.5a2960e6.jpg",
     "static/media/ZT1.jpg": "/static/media/ZT1.c9107c59.jpg",
     "static/media/ZT2.jpg": "/static/media/ZT2.6cf90335.jpg",
@@ -55,7 +55,7 @@
     "static/media/ZT7.jpg": "/static/media/ZT7.2d5e0caf.jpg",
     "static/media/Zasady1.jpg": "/static/media/Zasady1.8252345b.jpg",
     "static/media/Zasady2.jpg": "/static/media/Zasady2.576f483d.jpg",
-    "static/media/headers.jpg": "/static/media/headers.8b79145c.jpg",
+    "static/media/header.png": "/static/media/header.73f3dfb2.png",
     "static/media/logoKancelar.png": "/static/media/logoKancelar.527e140e.png"
   },
   "entrypoints": [
@@ -63,6 +63,6 @@
     "static/css/2.db6f3515.chunk.css",
     "static/js/2.970c5214.chunk.js",
     "static/css/main.2c19edf7.chunk.css",
-    "static/js/main.7d130d7e.chunk.js"
+    "static/js/main.de004a2e.chunk.js"
   ]
 }

@@ -52,12 +52,12 @@ class Team extends Component {
                 <Grid container spacing={3}>
                     <Grid container item xs={12} sm={12} md={6} lg={6} xl={6} justify={'center'} spacing={0}>
                         <CardClip img={ZT1}
-                                  name='Bernadetta Burkiewicz-Śliwa'
+                                  name='Bernadetta Burkiewicz'
                                   prof1='właściciel kancelarii'
                                   prof2='adwokat'
                                   body=''
 
-x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
+x                                 backTitle='Bernadetta Burkiewicz'
                                   backText='Ukończyła studia prawnicze na Wydziale Prawa Uniwersytetu Jagiellońskiego w&nbsp;Krakowie w&nbsp;trybie stacjonarnym.
                                   W&nbsp;2013 roku ukończyła aplikację adwokacką przy Okręgowej Radzie Adwokackiej w&nbsp;Krakowie a&nbsp;następnie zdała egzamin adwokacki.
                                   Doświadczenie zawodowe zdobywała od 2008 roku, początkowo pracując w&nbsp;krakowskiej kancelarii, a&nbsp;od 2013 roku prowadzi własną.
@@ -246,15 +246,12 @@ x                                 backTitle='Bernadetta Burkiewicz-Śliwa'
                     </Grid>
                     <Grid container item xs={12} sm={6} md={6} lg={4} xl={4} justify={'center'} spacing={0}>
                         <CardClip img={WZ8}
-                                  name={"Wojciech Śliwa "}
-                                  prof1={"inspektor budowalny"}
-                                  prof2={""}
-                                  body='Konsultant w zakresie technicznej oceny roszczeń budowlanych dotyczących inwestycji wielkogabarytowych.'
-                                  backTitle={"Wojciech Śliwa "}
-                                  backText='Absolwent Wydziału Budownictwa Politechniki Gliwickiej. W&nbsp;2012 roku uzyskał uprawnienia budowlane z&nbsp;zakresu  specjalności konstrukcyjno-budowlanej do
-                                      projektowania i&nbsp;nadzorowania robót budowlanych.
-                                      Działa w&nbsp;branży budowlanej nieprzerwanie od 2008 roku. Posiada doświadczenie zawodowe pełniąc funkcje techniczne na&nbsp;dużych inwestycjach budowlanych jak również
-                                      na stanowiskach kierowniczych odpowiadających za&nbsp;proces finansowania całych inwestycji.'
+                                  name={"Barbara Choczewska"}
+                                  prof1={"specjalista ds."}
+                                  prof2={"pozyskiwania finansowania dla firm"}
+                                  body=''
+                                  backTitle={"Barbara Choczewska"}
+                                  backText=''
                         />
                     </Grid>
                     <Grid container item xs={12} sm={6} md={6} lg={4} xl={4} justify={'center'} spacing={0}>
